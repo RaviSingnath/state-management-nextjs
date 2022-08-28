@@ -4,7 +4,7 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Project details
-project-details
+project-details.md
 
 # Node artifact files
 node_modules/
