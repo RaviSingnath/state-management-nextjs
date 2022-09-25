@@ -55,6 +55,10 @@ function CountryPicker () {
   const {country, setCountry} = useContext(CountryContext)
 
   return (
+    <>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     <select
       value={country}
       onChange={(e) => {
@@ -65,5 +69,6 @@ function CountryPicker () {
       <option value="USA">USA</option>
       <option value="CA">Canada</option>
     </select>
+    </>
   )
 }
